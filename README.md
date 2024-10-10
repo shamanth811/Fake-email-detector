@@ -1,15 +1,32 @@
 # Fake Email Detector Using Machine Learning
-Developed a spam detection model using logistic regression, achieving high accuracy by leveraging TF-IDF vectorization and label encoding techniques. Phishing detection is critical in cybersecurity to identify and mitigate fraudulent activities.
 
-Key Features
-Dataset: Loaded using pandas. The dataset mail_data.csv contains email messages categorized as 'spam' or 'ham'.
+This project aims to build a machine learning model that can detect fake emails. It uses a variety of preprocessing techniques, feature extraction methods, and a logistic regression model for classification.
 
-Missing Values: Handled by replacing any missing values with empty strings.
+## Getting Started
 
-Label Encoding: Converted the 'Category' column to numerical values, where 'spam' is 0 and 'ham' is 1.
+These instructions will help you set up and run the project on your local machine.
 
-Feature Extraction: Used TF-IDF vectorization to transform text data into numerical features.
+### Prerequisites
 
-Model Training: Trained a Logistic Regression model on the training data and evaluated its accuracy on both training and testing datasets.
+- Python 3.x
+- pandas
+- scikit-learn
 
-Predictions: Capable of predicting the category of new email messages
+### Installation
+
+1. Clone the repository from GitHub.
+2. Install the required dependencies using pip.
+
+### Running the Project
+
+1. Replace any missing values in the dataset with empty strings.
+2. Inspect the dataset to understand its structure and size.
+3. Encode the 'Category' column to convert categorical values to numerical values.
+4. Extract features and labels from the dataset.
+5. Split the dataset into training and testing sets.
+6. Transform text data into numerical features using TF-IDF Vectorizer.
+7. Encode the target labels as numerical values.
+8. Train the Logistic Regression model on the training data.
+9. Evaluate the model's accuracy on both the training and testing data.
+10. Predict the category of a new email message using the trained model.
+
