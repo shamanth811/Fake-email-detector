@@ -1,4 +1,4 @@
-Fake Email Detector Using Machine Learning
+# Fake Email Detector Using Machine Learning
 Developed a spam detection model using logistic regression, achieving high accuracy by leveraging TF-IDF vectorization and label encoding techniques. Phishing detection is critical in cybersecurity to identify and mitigate fraudulent activities.
 
 Key Features
