@@ -5,6 +5,18 @@ This project aims to build a machine learning model that can detect fake emails.
 ## Getting Started
 
 These instructions will help you set up and run the project on your local machine.
+1. Loading dataset
+2. Handling missing values
+3. Inspecting the dataset
+4. Encoding 'Category' column
+5. Extracting features and labels
+6. Splitting the dataset
+7. Transforming text data using TF-IDF Vectorizer
+8. Encoding target labels
+9. Training the Logistic Regression model
+10. Evaluating model accuracy
+11. Predicting new data
+
 
 ### Prerequisites
 
